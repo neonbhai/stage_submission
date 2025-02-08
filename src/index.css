@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+/* Custom gradient for story rings */
+.ring-gradient-to-tr {
+  background: linear-gradient(to right, #fbbf24, #db2777);
+}
+
+/* Hide scrollbar for stories list */
+.overflow-x-auto {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+  display: none;
+}
+
+/* 3D Cube Transition Styles */
+.story-cube-container {
+  position: relative;
+  perspective: 2000px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.story-cube {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.story-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.story-face.current {
+  transform: rotateY(0) translateZ(50vw);
+}
+
+.story-face.next {
+  transform: rotateY(90deg) translateZ(50vw);
+}
+
+.story-face.prev {
+  transform: rotateY(-90deg) translateZ(50vw);
+}
+
+.story-cube.transition-next {
+  transform: translateZ(-50vw) rotateY(-90deg);
+}
+
+.story-cube.transition-prev {
+  transform: translateZ(-50vw) rotateY(90deg);
+}
