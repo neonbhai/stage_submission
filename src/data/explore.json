@@ -1,0 +1,100 @@
+{
+  "posts": [
+    {
+      "id": "e1",
+      "type": "video",
+      "url": "https://assets.mixkit.co/videos/preview/mixkit-tree-with-yellow-flowers-1173-large.mp4",
+      "thumbnail": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1080&q=80",
+      "likes": 3242,
+      "comments": 89,
+      "aspectRatio": "vertical"
+    },
+    {
+      "id": "e2",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1080&q=80",
+      "likes": 2891,
+      "comments": 45
+    },
+    {
+      "id": "e3",
+      "type": "video",
+      "url": "https://assets.mixkit.co/videos/preview/mixkit-waves-in-the-water-1164-large.mp4",
+      "thumbnail": "https://images.unsplash.com/photo-1627483262769-04d0a1401487?w=1080&q=80",
+      "likes": 4521,
+      "comments": 124,
+      "aspectRatio": "vertical"
+    },
+    {
+      "id": "e4",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1080&q=80",
+      "likes": 1876,
+      "comments": 67
+    },
+    {
+      "id": "e5",
+      "type": "video",
+      "url": "https://assets.mixkit.co/videos/preview/mixkit-woman-running-above-the-camera-1364-large.mp4",
+      "thumbnail": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1080&q=80",
+      "likes": 5324,
+      "comments": 178,
+      "aspectRatio": "square"
+    },
+    {
+      "id": "e6",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1080&q=80",
+      "likes": 2456,
+      "comments": 92
+    },
+    {
+      "id": "e7",
+      "type": "video",
+      "url": "https://assets.mixkit.co/videos/preview/mixkit-girl-in-neon-sign-1232-large.mp4",
+      "thumbnail": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1080&q=80",
+      "likes": 3789,
+      "comments": 143,
+      "aspectRatio": "vertical"
+    },
+    {
+      "id": "e8",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1080&q=80",
+      "likes": 2987,
+      "comments": 86
+    },
+    {
+      "id": "e9",
+      "type": "video",
+      "url": "https://assets.mixkit.co/videos/preview/mixkit-urban-life-in-a-city-seen-from-above-4793-large.mp4",
+      "thumbnail": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=1080&q=80",
+      "likes": 4123,
+      "comments": 156,
+      "aspectRatio": "vertical"
+    },
+    {
+      "id": "e10",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=1080&q=80",
+      "likes": 3567,
+      "comments": 112
+    },
+    {
+      "id": "e11",
+      "type": "video",
+      "url": "https://assets.mixkit.co/videos/preview/mixkit-young-woman-practicing-yoga-in-a-city-42425-large.mp4",
+      "thumbnail": "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?w=1080&q=80",
+      "likes": 6234,
+      "comments": 234,
+      "aspectRatio": "vertical"
+    },
+    {
+      "id": "e12",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1526779259212-939e64788e3c?w=1080&q=80",
+      "likes": 4532,
+      "comments": 167
+    }
+  ]
+}
