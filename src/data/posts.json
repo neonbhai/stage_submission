@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": "3",
+        "username": "foodie_alex",
+        "profilePicture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&h=150&q=80"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=1080&q=80"
+      ],
+      "caption": "Sunday brunch done right 🍳 #foodie #brunch",
+      "likes": 892,
+      "timestamp": "2024-03-16T20:30:00Z",
+      "comments": [
+        {
+          "id": "3",
+          "username": "fitness_emma",
+          "text": "Looks delicious! 😋",
+          "timestamp": "2024-03-16T20:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": "1",
+        "username": "sarah_designs",
+        "profilePicture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&q=80"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=1080&q=80"
+      ],
+      "caption": "Working on some new designs 🎨 #design #creativity",
+      "likes": 1234,
+      "timestamp": "2024-03-16T23:00:00Z",
+      "comments": [
+        {
+          "id": "1",
+          "username": "mike_travels",
+          "text": "Amazing work! 🔥",
+          "timestamp": "2024-03-16T23:15:00Z"
+        },
+        {
+          "id": "2",
+          "username": "artist_sofia",
+          "text": "Love the color palette!",
+          "timestamp": "2024-03-16T23:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": "7",
+        "username": "nature_david",
+        "profilePicture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&q=80"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1080&q=80"
+      ],
+      "caption": "Morning hike was worth it 🏔️ #nature #adventure",
+      "likes": 2543,
+      "timestamp": "2024-03-16T14:00:00Z",
+      "comments": [
+        {
+          "id": "4",
+          "username": "mike_travels",
+          "text": "Epic shot! Where is this?",
+          "timestamp": "2024-03-16T14:30:00Z"
+        },
+        {
+          "id": "5",
+          "username": "sarah_designs",
+          "text": "The colors are incredible!",
+          "timestamp": "2024-03-16T15:00:00Z"
+        }
+      ]
+    }
+  ]
+}

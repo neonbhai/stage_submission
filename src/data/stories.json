@@ -1,0 +1,253 @@
+{
+  "storyGroups": [
+    {
+      "userId": "1",
+      "stories": [
+        {
+          "id": "1",
+          "user": {
+            "id": "1",
+            "username": "sarah_designs",
+            "profilePicture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1080&q=80",
+          "timestamp": "2024-03-16T23:45:00Z",
+          "viewed": false
+        },
+        {
+          "id": "2",
+          "user": {
+            "id": "1",
+            "username": "sarah_designs",
+            "profilePicture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1080&q=80",
+          "timestamp": "2024-03-16T23:47:00Z",
+          "viewed": false
+        }
+      ]
+    },
+    {
+      "userId": "2",
+      "stories": [
+        {
+          "id": "3",
+          "user": {
+            "id": "2",
+            "username": "mike_travels",
+            "profilePicture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1080&q=80",
+          "timestamp": "2024-03-16T22:30:00Z",
+          "viewed": false
+        },
+        {
+          "id": "4",
+          "user": {
+            "id": "2",
+            "username": "mike_travels",
+            "profilePicture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1488085061387-422e29b40080?w=1080&q=80",
+          "timestamp": "2024-03-16T22:35:00Z",
+          "viewed": false
+        },
+        {
+          "id": "5",
+          "user": {
+            "id": "2",
+            "username": "mike_travels",
+            "profilePicture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1080&q=80",
+          "timestamp": "2024-03-16T22:40:00Z",
+          "viewed": false
+        }
+      ]
+    },
+    {
+      "userId": "3",
+      "stories": [
+        {
+          "id": "6",
+          "user": {
+            "id": "3",
+            "username": "foodie_alex",
+            "profilePicture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1080&q=80",
+          "timestamp": "2024-03-16T21:15:00Z",
+          "viewed": false
+        },
+        {
+          "id": "7",
+          "user": {
+            "id": "3",
+            "username": "foodie_alex",
+            "profilePicture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=1080&q=80",
+          "timestamp": "2024-03-16T21:20:00Z",
+          "viewed": false
+        },
+        {
+          "id": "8",
+          "user": {
+            "id": "3",
+            "username": "foodie_alex",
+            "profilePicture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1080&q=80",
+          "timestamp": "2024-03-16T21:25:00Z",
+          "viewed": false
+        }
+      ]
+    },
+    {
+      "userId": "4",
+      "stories": [
+        {
+          "id": "9",
+          "user": {
+            "id": "4",
+            "username": "fitness_emma",
+            "profilePicture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1080&q=80",
+          "timestamp": "2024-03-16T19:00:00Z",
+          "viewed": false
+        },
+        {
+          "id": "10",
+          "user": {
+            "id": "4",
+            "username": "fitness_emma",
+            "profilePicture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1080&q=80",
+          "timestamp": "2024-03-16T19:05:00Z",
+          "viewed": false
+        }
+      ]
+    },
+    {
+      "userId": "5",
+      "stories": [
+        {
+          "id": "11",
+          "user": {
+            "id": "5",
+            "username": "tech_james",
+            "profilePicture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1080&q=80",
+          "timestamp": "2024-03-16T16:30:00Z",
+          "viewed": false
+        },
+        {
+          "id": "12",
+          "user": {
+            "id": "5",
+            "username": "tech_james",
+            "profilePicture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1080&q=80",
+          "timestamp": "2024-03-16T16:35:00Z",
+          "viewed": false
+        }
+      ]
+    },
+    {
+      "userId": "6",
+      "stories": [
+        {
+          "id": "13",
+          "user": {
+            "id": "6",
+            "username": "artist_sofia",
+            "profilePicture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=1080&q=80",
+          "timestamp": "2024-03-16T14:00:00Z",
+          "viewed": false
+        },
+        {
+          "id": "14",
+          "user": {
+            "id": "6",
+            "username": "artist_sofia",
+            "profilePicture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=1080&q=80",
+          "timestamp": "2024-03-16T14:05:00Z",
+          "viewed": false
+        },
+        {
+          "id": "15",
+          "user": {
+            "id": "6",
+            "username": "artist_sofia",
+            "profilePicture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=1080&q=80",
+          "timestamp": "2024-03-16T14:10:00Z",
+          "viewed": false
+        }
+      ]
+    },
+    {
+      "userId": "7",
+      "stories": [
+        {
+          "id": "16",
+          "user": {
+            "id": "7",
+            "username": "nature_david",
+            "profilePicture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1080&q=80",
+          "timestamp": "2024-03-16T12:00:00Z",
+          "viewed": false
+        },
+        {
+          "id": "17",
+          "user": {
+            "id": "7",
+            "username": "nature_david",
+            "profilePicture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=1080&q=80",
+          "timestamp": "2024-03-16T12:05:00Z",
+          "viewed": false
+        }
+      ]
+    },
+    {
+      "userId": "8",
+      "stories": [
+        {
+          "id": "18",
+          "user": {
+            "id": "8",
+            "username": "pet_lover_lisa",
+            "profilePicture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1080&q=80",
+          "timestamp": "2024-03-16T10:00:00Z",
+          "viewed": false
+        },
+        {
+          "id": "19",
+          "user": {
+            "id": "8",
+            "username": "pet_lover_lisa",
+            "profilePicture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&q=80"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=1080&q=80",
+          "timestamp": "2024-03-16T10:05:00Z",
+          "viewed": false
+        }
+      ]
+    }
+  ]
+}

@@ -4,6 +4,17 @@
 
 body {
   @apply bg-gray-100;
+  overscroll-behavior: none;
+}
+
+/* Hide scrollbars globally while maintaining scroll functionality */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
 
 /* Custom gradient for story rings */
@@ -24,10 +35,14 @@ body {
 /* 3D Cube Transition Styles */
 .story-cube-container {
   position: relative;
-  perspective: 2000px;
+  perspective: 1500px;
   width: 100%;
   height: 100%;
   overflow: hidden;
+  touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .story-cube {
@@ -35,7 +50,13 @@ body {
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+  will-change: transform;
+  touch-action: none;
+}
+
+.story-cube.no-transition {
+  transition: none;
 }
 
 .story-face {
@@ -44,24 +65,117 @@ body {
   height: 100%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  touch-action: none;
 }
 
 .story-face.current {
-  transform: rotateY(0) translateZ(50vw);
+  transform: rotateY(0deg) translateZ(min(50vw, 360px));
 }
 
 .story-face.next {
-  transform: rotateY(90deg) translateZ(50vw);
+  transform: rotateY(90deg) translateZ(min(50vw, 360px));
 }
 
 .story-face.prev {
-  transform: rotateY(-90deg) translateZ(50vw);
+  transform: rotateY(-90deg) translateZ(min(50vw, 360px));
 }
 
 .story-cube.transition-next {
-  transform: translateZ(-50vw) rotateY(-90deg);
+  transform: rotateY(-90deg);
 }
 
 .story-cube.transition-prev {
-  transform: translateZ(-50vw) rotateY(90deg);
+  transform: rotateY(90deg);
+}
+
+/* Smooth transitions for UI elements */
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+/* Loading animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Like heart animation */
+@keyframes like-heart {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  15% {
+    opacity: 0.9;
+    transform: scale(1.2);
+  }
+  30% {
+    transform: scale(0.95);
+  }
+  45%, 80% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+
+.animate-like-heart {
+  animation: like-heart 1s ease-in-out forwards;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+}
+
+@keyframes like-button {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.animate-like-button {
+  animation: like-button 0.3s ease-in-out;
+}
+
+/* Page transitions */
+.page-transition {
+  transition: opacity 0.2s ease-in-out;
+}
+
+.page-transition-enter {
+  opacity: 0;
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+}
+
+.page-transition-exit {
+  opacity: 1;
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+}
+
+/* Grid layout for explore page */
+.auto-rows-fr {
+  grid-auto-rows: 1fr;
+}
+
+/* Video styles */
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
