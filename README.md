@@ -1,6 +1,6 @@
-# Instagram Stories Clone
+# Instagram Stories
 
-A mobile-focused Instagram Stories clone built for Stage OTT
+Instagram Stories feature made by Someshwar Tripathi for Stage - OTT
 
 ## Features
 
@@ -21,16 +21,19 @@ A mobile-focused Instagram Stories clone built for Stage OTT
 ## Getting Started
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
 
 2. Start the development server:
+
    ```bash
    npm run dev
    ```
 
 3. Run tests:
+
    ```bash
    npm run test:e2e
    ```
